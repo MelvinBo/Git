@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Template Example</title>
+  </head>
+  <body>
+    <h1 style = "color: darkgreen">TASK 7 --> COMPLETED</h1>
+    <h2 style="color:darkseagreen">UNCC JOB DETAILS:</h2>
+    <div>
+        <p>
+            <ul>
+                {% for response in responseJSON %}
+                <li>
+                    {{ response}}
+                </li>
+                {% endfor %}
+            </ul>
+        </p>
+    </div>
+  </body>
+</html>
